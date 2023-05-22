@@ -3,6 +3,7 @@ const ratingState = document.querySelector(".ratingstate");
 const resultPage = document.querySelector(".resultpage");
 const submitBtn = document.querySelector(".submitbtn");
 const resultSpan = document.querySelector(".ratingresult");
+const errorEl = document.querySelector(".error")
 
 form.addEventListener('submit', function(e) {
     e.preventDefault();
@@ -10,8 +11,10 @@ form.addEventListener('submit', function(e) {
     const selectedRating = form.querySelector('input[name="rating"]:checked')
 
     if(!selectedRating) {
-        alert('Please rate lovely little Teemo.');
+        errorEl.textContent = '*Please rate lovely little Teemo.';
         return;
+    } else {
+        errorEl.textContent = ''
     }
 
     resultSpan.textContent = selectedRating.value;

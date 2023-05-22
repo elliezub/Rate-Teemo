@@ -117,9 +117,18 @@ footer a {
     color: rgb(255, 255, 255);
 }
 
+.error {
+    padding-top: 10px;
+    font-size: .8rem;
+    text-align: center;
+}
+
 @media (max-width: 500px) {
     .main {
-        margin-top: 15vh;
+        margin-top: 12vh;
+    }
+    footer p {
+        font-size: .6rem;
     }
 }
 
