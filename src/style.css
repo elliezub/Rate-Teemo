@@ -117,6 +117,14 @@ footer a {
     color: rgb(255, 255, 255);
 }
 
+@media (max-width: 500px) {
+    .main {
+        margin-top: 15vh;
+    }
+}
+
+
+
 @media (max-width:370px) {
     .ratingButton {
         width: 45px;
