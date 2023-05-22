@@ -83,6 +83,10 @@ button:hover {
 
 }
 
+.error-message {
+    font-size: .9rem;
+}
+
 .resultpage {
     display: none;
 }
