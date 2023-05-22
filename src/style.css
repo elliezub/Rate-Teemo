@@ -16,7 +16,7 @@ html, body {
 
 .main {
     max-width: 300px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.87);
     margin: 22vh auto;
     padding: 40px;
     border-radius: 25px;
