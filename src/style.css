@@ -17,7 +17,7 @@ html, body {
 .main {
     max-width: 300px;
     background-color: rgb(0, 0, 0);
-    margin: 25vh auto;
+    margin: 22vh auto;
     padding: 40px;
     border-radius: 25px;
     color:white;
@@ -110,6 +110,7 @@ footer {
 footer p {
     text-align: center;
     color: white;
+    font-size: .7rem;
 }
 
 footer a {
