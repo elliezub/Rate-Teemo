@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Interactive rating component</title>
+  <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+
+  <!-- Rating state start -->
+  <main class="ratingstate main">
+    <img class="wowteemo" src="/images/lol_teemo_wow10.PNG" alt="">
+    <h1>How cute is Teemo?</h1>
+    <p>Please let Teemo know how cute you think he is on a scale from 1 to 5. Thanks!</p>  
+    <form class="ratingform">
+      <div class="formbuttons">
+      <label>
+        <input type="radio" name="rating" value="1">
+        <span class="ratingButton">1</span>
+      </label>
+      <label>
+        <input type="radio" name="rating" value="2">
+        <span class="ratingButton">2</span>
+      </label>
+      <label>
+        <input type="radio" name="rating" value="3">
+        <span class="ratingButton">3</span>
+      </label>
+      <label>
+        <input type="radio" name="rating" value="4">
+        <span class="ratingButton">4</span>
+      </label>
+      <label>
+        <input type="radio" name="rating" value="5">
+        <span class="ratingButton">5</span>
+      </label>
+      </div>
+      <button type="submit" class="submitbtn">Submit</button>
+    </form>
+  </main>
+  <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+<section class="resultpage main">
+  <img src="/images/Teemo1.PNG" alt="teemo emote" class="teemothumbsup">
+  <div class="choicediv"><span class="choicespan">You selected <span class="ratingresult"></span> out of 5</span>
+    </div>
+  <h2>Thank you!</h2>
+
+  <p>We appreciate you taking the time to give a rating. If you ever want to meet Teemo, 
+  don’t hesitate to get in touch!</p> 
+</section>
+  <!-- Thank you state end -->
+
+  
+  <footer class="attribution">
+    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Ellie Zubrowski</a>.</p>
+  </footer>
+  <script src="src/script.js"></script>
+</body>
+</html>

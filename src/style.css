@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500&display=swap');
+
+
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: 0;
+    background-image: url("https://cdna.artstation.com/p/assets/images/images/003/775/642/large/kelly-aleshire-devil-teemofinal.jpg?1477378277");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Baloo 2', sans-serif;
+    padding: 0 5px;
+}
+
+.main {
+    max-width: 300px;
+    background-color: rgb(0, 0, 0);
+    margin: 25vh auto;
+    padding: 40px;
+    border-radius: 25px;
+    color:white;
+}
+
+
+
+h1 {
+    margin-bottom: 40px;
+}
+
+.formbuttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.ratingButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    color: black;
+}
+
+.ratingButton:hover {
+    cursor: pointer;
+}
+
+input {
+    display: none;
+}
+
+input:checked + .ratingButton {
+    background-color: rgb(238, 188, 188);
+}
+
+.wowteemo {
+    float: right;
+}
+
+button {
+    display: block;
+    margin: 40px auto 0 auto;
+    background-color: rgb(255, 153, 0);
+    border: none;
+    padding: 12px;
+    border-radius: 20px;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+
+}
+
+.resultpage {
+    display: none;
+}
+
+.teemothumbsup {
+    display: block;
+    margin: auto;
+}
+
+.choicediv {
+    margin: 21px auto 18px auto;
+    text-align: center;
+}
+.choicespan {
+    background-color: rgb(61, 67, 72); 
+    padding:4px 14px;
+    border-radius: 15px;
+}
+
+.ratingresult {
+    color: rgb(255, 153, 0);
+}
+
+footer {
+    width:100%;
+    position: fixed;
+    bottom: 0;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+@media (max-width:370px) {
+    .ratingButton {
+        width: 45px;
+        height: 45px;
+    }
+}
+
